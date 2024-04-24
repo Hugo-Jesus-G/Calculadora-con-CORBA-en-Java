@@ -1,0 +1,16 @@
+module calculadoraApp {
+    interface calculadora {
+        double sumar(in double num1, in double num2);
+        double restar(in double num1, in double num2);
+        double multiplicacion(in double num1, in double num2);
+        double divicion(in double num1, in double num2);
+        double exponencial(in double base, in double exponente);
+        double seno(in double angle);
+        double coseno(in double angle);
+        double tangente(in double angle);
+
+        oneway void shutdown();
+    };
+    
+    
+};
